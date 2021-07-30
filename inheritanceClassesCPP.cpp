@@ -30,7 +30,7 @@ private:
     float largura;
 
 public:
-    Retangulo(double altura, double largura,bool boo) : Polygon(boo)
+    Retangulo(double altura, double largura, bool boo) : Polygon(boo)
     {
         this->altura = altura;
         this->largura = largura;
@@ -101,17 +101,17 @@ public:
 
 int main()
 {
-    TrianguloI *triangulo = new TrianguloI(21, 8, 10, true);
-    Retangulo *retangulo = new Retangulo(5, 4, true);
-    Circulo *circulo = new Circulo(9, true);
+    TrianguloI *tri = new TrianguloI(21, 8, 10, true);
+    Retangulo *ret = new Retangulo(5, 4, true);
+    Circulo *cir = new Circulo(9, true);
 
 
-    Polygon *pointer = retangulo;
+    Polygon *pointer = ret;
     pointer->printShape();
 
-    pointer = circulo;
+    pointer = cir;
     pointer->printShape();
 
-    pointer = triangulo;
+    pointer = tri;
     pointer->printShape();
 }

@@ -3,6 +3,7 @@
 
 using namespace std;
 
+/*
 // ---------------- POLYGON CLASS ----------------
 
 class Polygon {
@@ -97,6 +98,7 @@ public:
     }
 };
 
+*/
 // ---------------- MAIN CLASS ----------------
 
 int main()

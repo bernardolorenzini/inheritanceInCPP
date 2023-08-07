@@ -1,9 +1,21 @@
+//
+//  array_list.h
+//  
+//
+//  Created by Bernardo Lorenzini on 18/07/23.
+//
+
+
 #include <iostream>
 #include <stdlib.h>
-#include "Polygon.h'
+#include "Polygon.hpp"
+#include "Retangulo.hpp"
+#include "Triangulo.hpp"
+#include "Circulo.hpp"
 
 
 using namespace std;
+
 
 int main()
 {

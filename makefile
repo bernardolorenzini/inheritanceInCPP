@@ -1,9 +1,8 @@
-FILES = inheritanceInCpp.cpp
-
+FILES = inheritanceInCpp.cpp Polygon.cpp Retangulo.cpp Triangulo.cpp Circulo.cpp
 EXE = output
 
 all:
-	g++ -g -Wall $(FILES) -o $(EXE)
+	g++ $(FILES) -o $(EXE)
 
 clean:
-	-rm $(EXE)
+	rm -f $(EXE)
